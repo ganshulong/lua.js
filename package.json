@@ -1,0 +1,38 @@
+{
+  "name": "lua.js",
+  "version": "0.1.5",
+  "description": "Full lua support for js. JS implemented lua2js.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha test --recursive",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "bin": {
+    "luajs": "bin/lua.js",
+    "luacjs": "bin/luac.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tdzl2003/lua.js.git"
+  },
+  "dependencies": {},
+  "keywords": [
+    "lua"
+  ],
+  "author": "DengYun",
+  "bugs": {
+    "url": "https://github.com/tdzl2003/lua.js/issues"
+  },
+  "homepage": "https://github.com/tdzl2003/lua.js#readme",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "intercept-stdout": "^0.1.2",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.4",
+    "webpack": "^1.13.1"
+  }
+}
